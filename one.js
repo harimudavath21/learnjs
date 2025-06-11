@@ -1,5 +1,11 @@
 function sum(a,b){
     console.log(a+b)
 }
-export default sum
+function mul(c,d){
+    console.log(c*d)
+}
+function divide(e,f){
+    console.log(e/f)
+}
+export {sum,mul,divide}
 
